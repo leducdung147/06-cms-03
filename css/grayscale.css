@@ -22,16 +22,10 @@ h1{
   font-family: myFirstFont;
   
 }
-.zoomIn {
-  animation: zoomIn;
-  animation-duration: 2s;
-  animation-delay: 0s;
-  
-  
-}
+
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.842);
 }
 
 #mainNav .navbar-toggler {
@@ -47,7 +41,7 @@ h1{
 
 #mainNav .navbar-brand {
   
-  color: #161616;
+  color: white;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -102,13 +96,13 @@ h1{
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.801);
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: white;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -174,8 +168,8 @@ h1{
     font-size: 8.0rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
-    min-width: 800px ;
-    min-height: 32vh;
+    min-width: 800px;
+    min-height: 28vh;
   }
  
 }
